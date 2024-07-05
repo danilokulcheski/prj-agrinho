@@ -1,10 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
 body {
-    font-family: Impact, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+    font-family: 'Anton SC', sans-serif;
 }
+
 
 header {
     background-color: #4CAF50;
