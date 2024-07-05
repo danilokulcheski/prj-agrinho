@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Sustentabilidade, cidadania, ética e saúde</h1>
+    </header>
+    <main>
+        <button onclick="showInfo('Sustentabilidade')">Sustentabilidade</button>
+        <button onclick="showInfo('cidadania')">cidadania</button>
+        <button onclick="showInfo('etica')">Ètica</button>
+        <button onclick="showInfo('saude')">Saúde</button>
+    </main>
+    <div id="info-box" class="hidden">
+        <p id="info-text"></p>
+        <button onclick="closeinfo()">Fechar</button>
+    </div>
+</body>
+</html>
