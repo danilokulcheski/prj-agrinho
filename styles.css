@@ -25,22 +25,3 @@ button {
     border-radius: 1px;
     cursor: pointer;
 }
-
-button:hover {
-    background-color: #45a049;
-}
-
-#info-box {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-.hidden {
-    display: none;
-}
